@@ -1,15 +1,11 @@
 package db
 
-// type Item struct {
-//   Price float64
-// }
-
 import (
-  "shopping"
+  "shopping/models"
 )
 
-func LoadItem(id int) *shopping.Item {
-  return &shopping.Item{
+func LoadItem(id int) *models.Item {
+  return &models.Item{
     Price: 9.001,
   }
 }
